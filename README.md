@@ -324,4 +324,4 @@ Select a principal
 </p>
 <p>
   
-  Congrats! You have now successfully installed and setup osTicket!
+  Great! You have now successfully installed and setup osTicket!
