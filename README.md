@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 1.) Start by creating a virtual machine at [https://portal.azure.com/](https://portal.azure.com/). Choose Windows 10 Pro, version 22H2, and configure it with at least 2 vCPUs and 16 GB of memory.
 
-2.) Once you have created your virtual machine you will want to conncet to it by using the public ip address the vm is setup with. You will connect using the remote desktop connection app. 
+2.) After creating your virtual machine, connect to it using its public IP address. Use the Remote Desktop Connection app to establish the connection. 
 </p>
 <br />
 
@@ -48,7 +48,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
+3.) After connecting to your virtual machine, open the Control Panel and navigate to "Programs." Then, select "Turn Windows features on or off."
 
 <p>
 <img src="https://imgur.com/fGXMpx4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -88,14 +88,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
   
   
-5.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-  Go through the install wizard and complete the install.
+5.) With IIS enabled, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the installation files. Follow the installation wizard to complete the setup.
   
 6.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
   
 7.) Create a folder in the C drive called PHP.
   
-8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
+8.) Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) from the installation files and extract its contents to `C:\PHP`.
   
   !! ATTENTION !!
 If this appears, choose to “Keep” the file:
@@ -110,7 +109,7 @@ If this appears, choose to “Keep” the file:
 </p>
 <p>
 
-9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
+9.) After extracting the PHP zip file to the `C:\PHP` folder, download and install `VC_redist.x86.exe` from the installation files. Complete the setup by following the installation wizard.
   
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   Run the setup wizard:
@@ -292,9 +291,9 @@ Select a principal
 </p>
 <p>
   
-  Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
+  After connecting to the session, return to the browser to complete the setup. In the Database Settings section, set the username to `root` and the password to `Password1`.
   
-  We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
+  Using HeidiSQL, create a new database by right-clicking "Unnamed" on the left panel, selecting "Create New," and then choosing "Database." Name the database `osTicket`. Once the database is created, return to the osTicket browser and enter `osTicket` in the MySQL Database field.
   
 <p>
 <img src="https://imgur.com/0rG1AJm.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -305,7 +304,7 @@ Select a principal
   -Delete: C:\inetpub\wwwroot\osTicket\setup
   Only delete the setup folder and nothing else.
   
-  We then will want to set the permissions back to "Read" only in the ost-config.php file.
+  Next, update the permissions of the `ost-config.php` file to "Read-only."
   
 <p>
 <img src="https://imgur.com/wFr0pkK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -317,7 +316,7 @@ Select a principal
 </p>
 <p>
   
-  The last step after that is to login to osTicket on the browser.
+  The final step is to log in to osTicket through your web browser.
   
 <p>
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
