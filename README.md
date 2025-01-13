@@ -86,19 +86,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 8.) Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) from the installation files and extract its contents to `C:\PHP`.
   
-  !! ATTENTION !!
-If this appears, choose to “Keep” the file:
-  
-<p>
-<img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-<p>
-<img src="https://imgur.com/YwBhqo0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
 9.) After extracting the PHP zip file to the `C:\PHP` folder, download and install `VC_redist.x86.exe` from the installation files. Complete the setup by following the installation wizard.
   
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
