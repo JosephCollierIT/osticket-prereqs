@@ -75,18 +75,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/pbPeHb1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
-***NOTE*** Make sure all Common HTTP Features are checked.
- 
- To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 
-  It should look something like this. 
-  
-<p>
-<img src="https://imgur.com/eICujoq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-  
+    
   
   
 5.) With IIS enabled, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the installation files. Follow the installation wizard to complete the setup.
