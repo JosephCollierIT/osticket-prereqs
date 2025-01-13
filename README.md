@@ -94,7 +94,7 @@ Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
 
-  Make the new root password: Password1
+  Make the new root password: root
   
 <p>
 <img src="https://imgur.com/KxcUy7C.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
