@@ -268,7 +268,7 @@ Select a principal
 </p>
 <p>
   
-  After connecting to the session, return to the browser to complete the setup. In the Database Settings section, set the username to `root` and the password to `Password1`.
+  After connecting to the session, return to the browser to complete the setup. In the Database Settings section, set the username to `root` and the password to `root`.
   
   Using HeidiSQL, create a new database by right-clicking "Unnamed" on the left panel, selecting "Create New," and then choosing "Database." Name the database `osTicket`. Once the database is created, return to the osTicket browser and enter `osTicket` in the MySQL Database field.
   
@@ -293,7 +293,7 @@ Select a principal
 </p>
 <p>
   
-  The final step is to log in to osTicket through your web browser.
+  Now we can log in to osTicket through your web browser.
   
 <p>
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
