@@ -277,22 +277,6 @@ Select a principal
 </p>
 <p>
   
-  The last step is to do clean up. We will want to delete the setup folder in our system. 
-  -Delete: C:\inetpub\wwwroot\osTicket\setup
-  Only delete the setup folder and nothing else.
-  
-  Next, update the permissions of the `ost-config.php` file to "Read-only."
-  
-<p>
-<img src="https://imgur.com/wFr0pkK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-<p>
-<img src="https://imgur.com/jsJOPyn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
   Now we can log in to osTicket through your web browser.
   
 <p>
