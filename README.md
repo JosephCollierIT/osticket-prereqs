@@ -261,7 +261,7 @@ Select a principal
 </p>
 <p>
   
-  We want to make sure the username is root and the password is Password1.
+  We want to make sure the username and the password are root.
   
 <p>
 <img src="https://imgur.com/LEAZNOc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
